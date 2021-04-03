@@ -1,0 +1,30 @@
+name: portfolio
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.1.1
+  google_fonts: ^2.0.0
+  font_awesome_flutter: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  assets:
+    - assets/fonts/
+    - assets/images/mountains/
+    - assets/images/locations/
+    - assets/images/coffee/
+
+  fonts:
+    - family: Icomoon
+      fonts:
+        - asset: assets/fonts/icomoon.ttf
